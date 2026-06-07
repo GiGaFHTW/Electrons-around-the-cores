@@ -17,4 +17,9 @@ describe('Electrons around the Cores', function() {
 		let list = [ 6, 6, 4, 4, 1, 3 ];
 		expect(electrons.add(list)).toEqual(2);
 	});
+
+	it('should return 12 for [ 3, 5, 3, 5, 4, 2 ]', function() {
+		let list = [ 3, 5, 3, 5, 4, 2 ];
+		expect(electrons.add(list)).toEqual(12);
+	});
 });
